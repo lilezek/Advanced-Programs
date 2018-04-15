@@ -828,7 +828,7 @@ local function runOreFinder(_sSave)
 end
 
 local tArgs = { ... }
-if turtle.getFuelLevel() > 0 or turtle.getFuelLevel() == "unlimited" then
+if turtle.getFuelLevel() == "unlimited" or turtle.getFuelLevel() > 0 then
 	if #tArgs == 1 then
 		_sFile = tostring(tArgs[1])
 		if fs.exists(_sFile) then
