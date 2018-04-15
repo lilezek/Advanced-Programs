@@ -56,6 +56,9 @@ placedValue = 0
 minedValue = 0
 end
 
+placedValue = 0
+minedValue = 0
+
 function updatetable() -- Update the table
 	-- Update Blocks Mined
 	minedValue = minedValue + 1
