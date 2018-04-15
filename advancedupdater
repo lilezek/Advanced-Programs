@@ -2,7 +2,7 @@
 -- Version 1.1 1/13/2014
 
 -- Config
-local author = "Henness0666"
+local author = "lilezek"
 local project = "Advanced-Programs"
 local branch = "master"
 local screenw,screenh = term.getSize()
